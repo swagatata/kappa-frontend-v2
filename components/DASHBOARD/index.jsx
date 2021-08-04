@@ -3,7 +3,6 @@ import styled from "styled-components";
 import {
   LatoSemiBoldDiesel40px,
   LatoExtraBoldWhite45px,
-  LatoLightAlabaster30px,
   LatoExtraBoldWhite48px,
   LatoBoldBlack40px,
   LatoNormalDiesel40px,
@@ -13,15 +12,12 @@ import {
   LatoLightBunker30px
 } from "../../styledMixins";
 import "./DASHBOARD.css";
+import SiteHeader from "./siteheader";
 
 class DASHBOARD extends React.Component {
   render() {
     const {
       blueBackgrounImage,
-      kappa,
-      ourStory,
-      team,
-      faqs,
       backgroundCopy1,
       background1,
       vector2,
@@ -86,15 +82,12 @@ class DASHBOARD extends React.Component {
     return (
       <div className="container-center-horizontal">
         <div className="dashboard screen">
-          <Header>
+          <Header className="header">
             <OverlapGroup
               style={{ backgroundImage: `url(${blueBackgrounImage})` }}
             >
-              <Kappa>{kappa}</Kappa>
-              <OurStory>{ourStory}</OurStory>
+              <SiteHeader></SiteHeader>
               <OverlapGroup1>
-                <Team>{team}</Team>
-                <FAQs>{faqs}</FAQs>
                 <BackgroundCopy1 src={backgroundCopy1} />
                 <Background1 src={background1} />
                 <Vector2 src={vector2} />
@@ -273,51 +266,12 @@ const OverlapGroup = styled.div`
   background-position: 50% 50%;
 `;
 
-const Kappa = styled.div`
-  position: absolute;
-  width: 88px;
-  top: 60px;
-  left: 277px;
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  color: var(--alabaster);
-  font-size: var(--font-size-l2);
-  letter-spacing: 0;
-`;
-
-const OurStory = styled.div`
-  ${LatoLightAlabaster30px}
-  position: absolute;
-  width: 129px;
-  top: 64px;
-  left: 420px;
-  letter-spacing: 0;
-`;
-
 const OverlapGroup1 = styled.div`
   position: absolute;
   width: 1440px;
   height: 741px;
   top: 66px;
   left: 0;
-`;
-
-const Team = styled.div`
-  ${LatoLightAlabaster30px}
-  position: absolute;
-  width: 73px;
-  top: 0;
-  left: 604px;
-  letter-spacing: 0;
-`;
-
-const FAQs = styled.div`
-  ${LatoLightAlabaster30px}
-  position: absolute;
-  width: 73px;
-  top: 4px;
-  left: 734px;
-  letter-spacing: 0;
 `;
 
 const BackgroundCopy1 = styled.img`
