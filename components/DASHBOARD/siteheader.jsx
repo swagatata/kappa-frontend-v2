@@ -5,53 +5,35 @@ import { LatoLightAlabaster30px } from "../../styledMixins";
 
 class SiteHeader extends React.Component {
   render() {
+    const { kappaLogo } = this.props;
     return (
-      <div className="siteheader">
-        <Kappa>Kappa</Kappa>
-        <OurStory>Our Story</OurStory>
-        <Team>Team</Team>
-        <FAQs>FAQs</FAQs>
+      <div className="siteheader2">
+        <ul>
+          <li>
+            <KappaLogo src={kappaLogo} />
+          </li>
+          <SiteHeaderText>Kappa</SiteHeaderText>
+          <SiteHeaderText>Our Story</SiteHeaderText>
+          <SiteHeaderText>Team</SiteHeaderText>
+          <SiteHeaderText>FAQs</SiteHeaderText>
+        </ul>
       </div>
     );
   }
 }
 
-const Kappa = styled.div`
-  position: absolute;
-  width: 88px;
-  top: 60px;
-  left: 277px;
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  color: var(--alabaster);
-  font-size: var(--font-size-l2);
-  letter-spacing: 0;
+const SiteHeaderText = styled.li`
+  ${LatoLightAlabaster30px}
+  vertical-align: middle;
+  margin-top: 4.5ex;
 `;
 
-const OurStory = styled.div`
-  ${LatoLightAlabaster30px}
-  position: absolute;
-  width: 129px;
-  top: 64px;
-  left: 420px;
-  letter-spacing: 0;
+const KappaLogo = styled.img`
+  width: 247px;
+  height: 155px;
+  top: 6px;
+  left: 0;
+  object-fit: cover;
 `;
 
-const Team = styled.div`
-  ${LatoLightAlabaster30px}
-  position: absolute;
-  width: 73px;
-  top: 64px;
-  left: 604px;
-  letter-spacing: 0;
-`;
-
-const FAQs = styled.div`
-  ${LatoLightAlabaster30px}
-  position: absolute;
-  width: 73px;
-  top: 64px;
-  left: 734px;
-  letter-spacing: 0;
-`;
 export default SiteHeader;

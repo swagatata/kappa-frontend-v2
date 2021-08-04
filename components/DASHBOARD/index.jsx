@@ -27,7 +27,6 @@ class DASHBOARD extends React.Component {
       surname,
       scrollDownArrowIcon300X3001,
       sendMoney,
-      whatsappImage20210720At1521,
       vecteezy_AbstractGeometricGradientB,
       x3153159296_UsProgramUsaFlagIconSvg,
       place,
@@ -86,7 +85,7 @@ class DASHBOARD extends React.Component {
             <OverlapGroup
               style={{ backgroundImage: `url(${blueBackgrounImage})` }}
             >
-              <SiteHeader></SiteHeader>
+              <SiteHeader {...this.props}></SiteHeader>
               <OverlapGroup1>
                 <BackgroundCopy1 src={backgroundCopy1} />
                 <Background1 src={background1} />
@@ -106,7 +105,6 @@ class DASHBOARD extends React.Component {
                 </Lang>
               </OverlapGroup1>
               <SendMoney>{sendMoney}</SendMoney>
-              <WhatsAppImage20210720At1521 src={whatsappImage20210720At1521} />
             </OverlapGroup>
           </Header>
           <ExchangeRate>
@@ -371,15 +369,6 @@ const SendMoney = styled.div`
   color: var(--header-send-money);
   font-size: var(--font-size-xxxl);
   letter-spacing: 0;
-`;
-
-const WhatsAppImage20210720At1521 = styled.img`
-  position: absolute;
-  width: 247px;
-  height: 155px;
-  top: 6px;
-  left: 0;
-  object-fit: cover;
 `;
 
 const ExchangeRate = styled.div`
