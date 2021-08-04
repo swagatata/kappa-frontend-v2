@@ -6,7 +6,7 @@ import { LatoLightAlabaster30px } from "../../styledMixins";
 class SiteHeader extends React.Component {
   render() {
     return (
-      <div className="header">
+      <div className="siteheader">
         <Kappa>Kappa</Kappa>
         <OurStory>Our Story</OurStory>
         <Team>Team</Team>
