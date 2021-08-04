@@ -105,7 +105,6 @@ class DASHBOARD extends React.Component {
                 </Lang>
               </OverlapGroup1>
               <SendMoney>{sendMoney}</SendMoney>
-              {/* <KappaLogo src={kappaLogo} /> */}
             </OverlapGroup>
           </Header>
           <ExchangeRate>
@@ -370,15 +369,6 @@ const SendMoney = styled.div`
   color: var(--header-send-money);
   font-size: var(--font-size-xxxl);
   letter-spacing: 0;
-`;
-
-const KappaLogo = styled.img`
-  position: absolute;
-  width: 247px;
-  height: 155px;
-  top: 6px;
-  left: 0;
-  object-fit: cover;
 `;
 
 const ExchangeRate = styled.div`
