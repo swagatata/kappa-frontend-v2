@@ -13,13 +13,12 @@ import {
   LatoLightBunker30px
 } from "../../styledMixins";
 import "./DASHBOARD.css";
+import SiteHeader from "./siteheader";
 
 class DASHBOARD extends React.Component {
   render() {
     const {
       blueBackgrounImage,
-      kappa,
-      ourStory,
       team,
       faqs,
       backgroundCopy1,
@@ -86,12 +85,11 @@ class DASHBOARD extends React.Component {
     return (
       <div className="container-center-horizontal">
         <div className="dashboard screen">
-          <Header>
+          <Header className="header">
             <OverlapGroup
               style={{ backgroundImage: `url(${blueBackgrounImage})` }}
             >
-              <Kappa>{kappa}</Kappa>
-              <OurStory>{ourStory}</OurStory>
+              <SiteHeader></SiteHeader>
               <OverlapGroup1>
                 <Team>{team}</Team>
                 <FAQs>{faqs}</FAQs>
@@ -271,27 +269,6 @@ const OverlapGroup = styled.div`
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
-`;
-
-const Kappa = styled.div`
-  position: absolute;
-  width: 88px;
-  top: 60px;
-  left: 277px;
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  color: var(--alabaster);
-  font-size: var(--font-size-l2);
-  letter-spacing: 0;
-`;
-
-const OurStory = styled.div`
-  ${LatoLightAlabaster30px}
-  position: absolute;
-  width: 129px;
-  top: 64px;
-  left: 420px;
-  letter-spacing: 0;
 `;
 
 const OverlapGroup1 = styled.div`
