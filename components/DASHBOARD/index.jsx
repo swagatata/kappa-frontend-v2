@@ -10,14 +10,14 @@ import {
   LatoLightBlack31px,
   LatoSemiBoldBlack30px,
   LatoBoldPumice25px,
-  LatoLightBunker30px,
+  LatoLightBunker30px
 } from "../../styledMixins";
 import "./DASHBOARD.css";
 
 class DASHBOARD extends React.Component {
   render() {
     const {
-      overlapGroup,
+      blueBackgrounImage,
       kappa,
       ourStory,
       team,
@@ -80,14 +80,16 @@ class DASHBOARD extends React.Component {
       faqs2,
       x51610747678Jqsl4Zyp1Opbwnnmlbnfdxn,
       line6,
-      kappaInc,
+      kappaInc
     } = this.props;
 
     return (
       <div className="container-center-horizontal">
         <div className="dashboard screen">
           <Header>
-            <OverlapGroup style={{ backgroundImage: `url(${overlapGroup})` }}>
+            <OverlapGroup
+              style={{ backgroundImage: `url(${blueBackgrounImage})` }}
+            >
               <Kappa>{kappa}</Kappa>
               <OurStory>{ourStory}</OurStory>
               <OverlapGroup1>
@@ -104,7 +106,9 @@ class DASHBOARD extends React.Component {
                 <Lang>
                   <OverlapGroup2>
                     <Surname>{surname}</Surname>
-                    <ScrollDownArrowIcon300x3001 src={scrollDownArrowIcon300X3001} />
+                    <ScrollDownArrowIcon300x3001
+                      src={scrollDownArrowIcon300X3001}
+                    />
                   </OverlapGroup2>
                 </Lang>
               </OverlapGroup1>
@@ -114,13 +118,19 @@ class DASHBOARD extends React.Component {
           </Header>
           <ExchangeRate>
             <OverlapGroup3>
-              <VecteezyAbstractGeometricGradientBa src={vecteezy_AbstractGeometricGradientB} />
+              <VecteezyAbstractGeometricGradientBa
+                src={vecteezy_AbstractGeometricGradientB}
+              />
               <Group7>
                 <OverlapGroup4>
-                  <X3153159296UsProgramUsaFlagIconSvg1 src={x3153159296_UsProgramUsaFlagIconSvg} />
+                  <X3153159296UsProgramUsaFlagIconSvg1
+                    src={x3153159296_UsProgramUsaFlagIconSvg}
+                  />
                   <OverlapGroup11>
                     <Place>{place}</Place>
-                    <X4424426111DownSoulSpiritIconArrowD src={x4424426111_DownSoulSpiritIconArrow} />
+                    <X4424426111DownSoulSpiritIconArrowD
+                      src={x4424426111_DownSoulSpiritIconArrow}
+                    />
                   </OverlapGroup11>
                 </OverlapGroup4>
               </Group7>
@@ -133,7 +143,9 @@ class DASHBOARD extends React.Component {
               <Group8>
                 <OverlapGroup41>
                   <Place2>{place3}</Place2>
-                  <X4424426111DownSoulSpiritIconArrowD1 src={x4424426111_DownSoulSpiritIconArrow2} />
+                  <X4424426111DownSoulSpiritIconArrowD1
+                    src={x4424426111_DownSoulSpiritIconArrow2}
+                  />
                 </OverlapGroup41>
               </Group8>
               <Text2>{text2}</Text2>
@@ -165,14 +177,18 @@ class DASHBOARD extends React.Component {
             <OverlapGroup6>
               <Group9>
                 <OverlapGroup7>
-                  <PngTransparentComputerIconsWritingA src={pngTransparentComputerIconsWritingA} />
+                  <PngTransparentComputerIconsWritingA
+                    src={pngTransparentComputerIconsWritingA}
+                  />
                   <EasyToSignUp>{easyToSignUp}</EasyToSignUp>
                   <Text7>{text7}</Text7>
                 </OverlapGroup7>
               </Group9>
               <Group11>
                 <OverlapGroup12>
-                  <KisspngComputerIconsPadlockWebTypog src={kisspngComputerIconsPadlockWebTypog} />
+                  <KisspngComputerIconsPadlockWebTypog
+                    src={kisspngComputerIconsPadlockWebTypog}
+                  />
                   <Text9>{text9}</Text9>
                   <Text10>{text10}</Text10>
                 </OverlapGroup12>
@@ -185,12 +201,16 @@ class DASHBOARD extends React.Component {
                   <Rectangle8></Rectangle8>
                   <ZeroFees>{zeroFees}</ZeroFees>
                   <Text8>{text8}</Text8>
-                  <ImgbinExchangeRateComputerIconsCurr src={imgbinExchangeRateComputerIconsCurr} />
+                  <ImgbinExchangeRateComputerIconsCurr
+                    src={imgbinExchangeRateComputerIconsCurr}
+                  />
                 </OverlapGroup22>
               </Group12>
               <Group101>
                 <OverlapGroup31>
-                  <X247ServiceIcon11549754543nocqs6t12 src={x247ServiceIcon11549754543Nocqs6T12} />
+                  <X247ServiceIcon11549754543nocqs6t12
+                    src={x247ServiceIcon11549754543Nocqs6T12}
+                  />
                   <X247Support>{x247Support}</X247Support>
                   <Text7>{text11}</Text7>
                 </OverlapGroup31>
@@ -224,7 +244,9 @@ class DASHBOARD extends React.Component {
               </FlexRow4>
               <FlexRow5>
                 <FAQs1>{faqs2}</FAQs1>
-                <X51610747678jqsl4zyp1opbwnnmlbnfdxn src={x51610747678Jqsl4Zyp1Opbwnnmlbnfdxn} />
+                <X51610747678jqsl4zyp1opbwnnmlbnfdxn
+                  src={x51610747678Jqsl4Zyp1Opbwnnmlbnfdxn}
+                />
               </FlexRow5>
               <Line6 src={line6} />
               <KappaInc>{kappaInc}</KappaInc>
