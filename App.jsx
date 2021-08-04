@@ -20,10 +20,6 @@ export default App;
 const dASHBOARDData = {
   blueBackgrounImage:
     "https://anima-uploads.s3.amazonaws.com/projects/60fc3546589b4ff8667aa664/releases/6103387f6564620de02575c1/img/back-1@1x.png",
-  kappa: "Kappa",
-  ourStory: "Our Story",
-  team: "Team",
-  faqs: "FAQs",
   backgroundCopy1:
     "https://anima-uploads.s3.amazonaws.com/projects/60fc3546589b4ff8667aa664/releases/6106a5cb4a92f15de20d445c/img/background-copy-1@2x.png",
   background1:

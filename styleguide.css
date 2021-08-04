@@ -19,9 +19,25 @@
   --font-family-lato: "Lato", Helvetica;
 }
 
-.siteheader {
+.siteheader,
+.siteheader2 {
   width: 100%;
   height: 160px;
   position: relative;
   background-color: #325f98;
+}
+
+.siteheader2 ul {
+  list-style: none;
+}
+
+.siteheader2 li {
+  display: inline;
+  list-style-type: none;
+  float: left;
+  margin-right: 4ex;
+}
+
+.siteheader2 li p {
+  color: black;
 }
