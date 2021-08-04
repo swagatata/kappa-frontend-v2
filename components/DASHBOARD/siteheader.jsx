@@ -5,8 +5,10 @@ import { LatoLightAlabaster30px } from "../../styledMixins";
 
 class SiteHeader extends React.Component {
   render() {
+    const { kappaLogo } = this.props;
     return (
       <div className="siteheader">
+        <KappaLogo src={kappaLogo} />
         <Kappa>Kappa</Kappa>
         <OurStory>Our Story</OurStory>
         <Team>Team</Team>
@@ -15,6 +17,15 @@ class SiteHeader extends React.Component {
     );
   }
 }
+
+const KappaLogo = styled.img`
+  position: absolute;
+  width: 247px;
+  height: 155px;
+  top: 6px;
+  left: 0;
+  object-fit: cover;
+`;
 
 const Kappa = styled.div`
   position: absolute;
