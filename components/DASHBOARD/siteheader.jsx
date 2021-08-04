@@ -9,6 +9,8 @@ class SiteHeader extends React.Component {
       <div className="header">
         <Kappa>Kappa</Kappa>
         <OurStory>Our Story</OurStory>
+        <Team>Team</Team>
+        <FAQs>FAQs</FAQs>
       </div>
     );
   }
@@ -35,4 +37,21 @@ const OurStory = styled.div`
   letter-spacing: 0;
 `;
 
+const Team = styled.div`
+  ${LatoLightAlabaster30px}
+  position: absolute;
+  width: 73px;
+  top: 64px;
+  left: 604px;
+  letter-spacing: 0;
+`;
+
+const FAQs = styled.div`
+  ${LatoLightAlabaster30px}
+  position: absolute;
+  width: 73px;
+  top: 64px;
+  left: 734px;
+  letter-spacing: 0;
+`;
 export default SiteHeader;

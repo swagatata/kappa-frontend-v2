@@ -3,7 +3,6 @@ import styled from "styled-components";
 import {
   LatoSemiBoldDiesel40px,
   LatoExtraBoldWhite45px,
-  LatoLightAlabaster30px,
   LatoExtraBoldWhite48px,
   LatoBoldBlack40px,
   LatoNormalDiesel40px,
@@ -19,8 +18,6 @@ class DASHBOARD extends React.Component {
   render() {
     const {
       blueBackgrounImage,
-      team,
-      faqs,
       backgroundCopy1,
       background1,
       vector2,
@@ -91,8 +88,6 @@ class DASHBOARD extends React.Component {
             >
               <SiteHeader></SiteHeader>
               <OverlapGroup1>
-                <Team>{team}</Team>
-                <FAQs>{faqs}</FAQs>
                 <BackgroundCopy1 src={backgroundCopy1} />
                 <Background1 src={background1} />
                 <Vector2 src={vector2} />
@@ -277,24 +272,6 @@ const OverlapGroup1 = styled.div`
   height: 741px;
   top: 66px;
   left: 0;
-`;
-
-const Team = styled.div`
-  ${LatoLightAlabaster30px}
-  position: absolute;
-  width: 73px;
-  top: 0;
-  left: 604px;
-  letter-spacing: 0;
-`;
-
-const FAQs = styled.div`
-  ${LatoLightAlabaster30px}
-  position: absolute;
-  width: 73px;
-  top: 4px;
-  left: 734px;
-  letter-spacing: 0;
 `;
 
 const BackgroundCopy1 = styled.img`
