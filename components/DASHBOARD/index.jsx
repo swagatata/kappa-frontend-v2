@@ -24,9 +24,7 @@ class DASHBOARD extends React.Component {
       vector3,
       spanText,
       spanText2,
-      surname,
       scrollDownArrowIcon300X3001,
-      sendMoney,
       vecteezy_AbstractGeometricGradientB,
       x3153159296_UsProgramUsaFlagIconSvg,
       place,
@@ -97,14 +95,12 @@ class DASHBOARD extends React.Component {
                 </Text1>
                 <Lang>
                   <OverlapGroup2>
-                    <Surname>{surname}</Surname>
                     <ScrollDownArrowIcon300x3001
                       src={scrollDownArrowIcon300X3001}
                     />
                   </OverlapGroup2>
                 </Lang>
               </OverlapGroup1>
-              <SendMoney>{sendMoney}</SendMoney>
             </OverlapGroup>
           </Header>
           <ExchangeRate>
@@ -326,8 +322,8 @@ const Span1 = styled.span`
 const Lang = styled.div`
   position: absolute;
   height: 29px;
-  top: 14px;
-  left: 898px;
+  top: 5px;
+  left: 850px;
   display: flex;
   align-items: flex-start;
 `;
@@ -338,18 +334,6 @@ const OverlapGroup2 = styled.div`
   position: relative;
 `;
 
-const Surname = styled.div`
-  position: absolute;
-  width: 110px;
-  top: 0;
-  left: 0;
-  font-family: var(--font-family-lato);
-  font-weight: 300;
-  color: var(--alabaster);
-  font-size: 18px;
-  letter-spacing: 0;
-`;
-
 const ScrollDownArrowIcon300x3001 = styled.img`
   position: absolute;
   width: 27px;
@@ -357,18 +341,6 @@ const ScrollDownArrowIcon300x3001 = styled.img`
   top: 4px;
   left: 76px;
   object-fit: cover;
-`;
-
-const SendMoney = styled.div`
-  position: absolute;
-  width: 306px;
-  top: 58px;
-  left: 1130px;
-  font-family: var(--font-family-lato);
-  font-weight: 800;
-  color: var(--header-send-money);
-  font-size: var(--font-size-xxxl);
-  letter-spacing: 0;
 `;
 
 const ExchangeRate = styled.div`

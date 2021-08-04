@@ -16,6 +16,8 @@ class SiteHeader extends React.Component {
           <SiteHeaderText>Our Story</SiteHeaderText>
           <SiteHeaderText>Team</SiteHeaderText>
           <SiteHeaderText>FAQs</SiteHeaderText>
+          <SiteHeaderText className="language">English</SiteHeaderText>
+          <SiteHeaderText className="sendmoney">Send Money</SiteHeaderText>
         </ul>
       </div>
     );
