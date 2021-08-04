@@ -1,0 +1,20 @@
+:root { 
+  --alabaster: #f8fafb;
+  --azure: #325f98;
+  --black: #000000;
+  --bunker: #141415;
+  --diesel: #0a0000;
+  --header-send-money: #f4de19eb;
+  --pumice: #cacaca;
+  --white: #ffffff;
+ 
+  --font-size-l: 31px;
+  --font-size-l2: 30px;
+  --font-size-s: 25px;
+  --font-size-s2: 20px;
+  --font-size-xxl2: 40px;
+  --font-size-xxxl: 48px;
+  --font-size-xxxl2: 45px;
+ 
+  --font-family-lato: "Lato", Helvetica;
+}
