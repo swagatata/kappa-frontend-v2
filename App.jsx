@@ -35,10 +35,8 @@ const dASHBOARDData = {
     </>
   ),
   spanText2: "",
-  surname: "ENGLISH",
   scrollDownArrowIcon300X3001:
     "https://anima-uploads.s3.amazonaws.com/projects/60fc3546589b4ff8667aa664/releases/6106a5cb4a92f15de20d445c/img/scroll-down-arrow-icon-300x300-1@2x.png",
-  sendMoney: "Send Money",
   kappaLogo:
     "https://anima-uploads.s3.amazonaws.com/projects/60fc3546589b4ff8667aa664/releases/6103387f6564620de02575c1/img/whatsapp-image-2021-07-20-at-1-52-1@2x.png",
   vecteezy_AbstractGeometricGradientB:

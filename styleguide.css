@@ -37,3 +37,16 @@
   float: left;
   margin-right: 4ex;
 }
+
+.siteheader2 .language {
+  font-size: 20px;
+  margin-top: 7ex;
+}
+
+.siteheader2 .sendmoney {
+  float: right;
+  font-size: var(--font-size-xxxl);
+  font-family: var(--font-family-lato);
+  font-weight: 800;
+  margin-top: 2.5ex;
+}
