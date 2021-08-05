@@ -264,7 +264,7 @@ const OverlapGroup1 = styled.div`
   position: absolute;
   width: 1440px;
   height: 741px;
-  top: 66px;
+  top: 156px;
   left: 0;
 `;
 
@@ -272,7 +272,7 @@ const BackgroundCopy1 = styled.img`
   position: absolute;
   width: 454px;
   height: 331px;
-  top: 409px;
+  top: 320px;
   left: 986px;
   object-fit: cover;
 `;
@@ -281,7 +281,7 @@ const Background1 = styled.img`
   position: absolute;
   width: 986px;
   height: 644px;
-  top: 97px;
+  top: 7px;
   left: 0;
   object-fit: cover;
 `;
@@ -290,7 +290,7 @@ const Vector2 = styled.img`
   position: absolute;
   width: 400px;
   height: 433px;
-  top: 11px;
+  top: -80px;
   left: 660px;
 `;
 
@@ -298,7 +298,7 @@ const Vector3 = styled.img`
   position: absolute;
   width: 468px;
   height: 366px;
-  top: 359px;
+  top: 267px;
   left: 972px;
 `;
 
