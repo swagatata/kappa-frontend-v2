@@ -1,5 +1,5 @@
 import React from "react";
-
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import styled from "styled-components";
 import { LatoLightAlabaster30px } from "../../styledMixins";
 
@@ -13,11 +13,19 @@ class SiteHeader extends React.Component {
             <KappaLogo src={kappaLogo} />
           </li>
           <SiteHeaderText>Kappa</SiteHeaderText>
-          <SiteHeaderText>Our Story</SiteHeaderText>
-          <SiteHeaderText>Team</SiteHeaderText>
-          <SiteHeaderText>FAQs</SiteHeaderText>
+          <Link to="/ourstory">
+            <SiteHeaderText>Our Story</SiteHeaderText>
+          </Link>
+          <Link to="/team">
+            <SiteHeaderText>Team</SiteHeaderText>
+          </Link>
+          <Link to="/FAQs">
+            <SiteHeaderText>FAQs</SiteHeaderText>
+          </Link>
           <SiteHeaderText className="language">English</SiteHeaderText>
-          <SiteHeaderText className="sendmoney">Send Money</SiteHeaderText>
+          <Link to="/sendmoney">
+            <SiteHeaderText className="sendmoney">Send Money</SiteHeaderText>
+          </Link>
         </ul>
       </div>
     );
